@@ -3,6 +3,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#boxes{
+    margin: auto;
+}
 
 /*left-box-stlying-and-cascading*/
 
@@ -14,21 +17,21 @@ body{
     color: whitesmoke;
     border: black;
     border-width: 1px;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-left: 15px;
     padding-bottom: 0px;
     width: 25%;
-    height: 1300px;
+    height: 3000px;
 }
-h4{
+.head1{
     margin-top: 30px;
     margin-bottom: 0px;
 }
 
 
-.head1{
+.head2{
     font-size: 30px;
     margin-left: 3%;
     margin-top: 0%;
@@ -62,11 +65,15 @@ h4{
     float: right;
     width: 70%;
     height: 1000;
-    margin-top: 80px;
+    margin-top: 10px;
+    font-size: 22px;
+    padding: 5px;
+    font-weight: lighter;
+
 }
 
 
-.head2{
+.head3{
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 0%;
@@ -76,8 +83,15 @@ h4{
 }
 
 .list{
-    line-height: ;
+    margin-bottom: 20px;
 }
-.paragraph{
-    line-height: 4px;
+
+li{
+    margin-bottom: 20px;
+    line-height: 3ch;
+    
+}
+
+p{
+    line-height: 2ch;
 }
